@@ -8,7 +8,7 @@ We provided our dataset and you can find them [Dataset](https://github.com/Feng1
 ## 🔬 Source code and pre-trained model
 We provide the source code and you can find them [Code](https://github.com/Feng106-w/BiToxNet/edit/main/Code)
 
-The pre-trained model used in BiToxNet is [esm2 t30 150M UR50D](https://huggingface.co/docs/transformers/en/model_doc/esm)
+The pre-trained model used in BiToxNet is [esm2 t30 150M UR50D](https://huggingface.co/facebook/esm2_t30_150M_UR50D)
 
 ## 🚀 Usage
 ### 1. Model Training
