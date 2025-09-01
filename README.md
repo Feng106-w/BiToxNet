@@ -3,7 +3,23 @@ Accurate prediction of the neurotoxicity of peptides and proteins is critically 
 
 ![workflow](workflow.png)
 
-## Dataset for this study
+## 📚 Dataset for this study
 We provided our dataset and you can find them [Dataset](https://github.com/Feng106-w/BiToxNet/edit/main/Dataset)
-## Source code
+## 🔬 Source code and pre-trained model
 We provide the source code and you can find them [Code](https://github.com/Feng106-w/BiToxNet/edit/main/Code)
+
+The pre-trained model used in BiToxNet is [esm2 t30 150M UR50D](https://huggingface.co/docs/transformers/en/model_doc/esm)
+
+## 🚀 Usage
+### 1. Model Training
+Train the model with 5-fold cross-validation:
+```bash
+python Training.py
+```
+
+### 2. Model Evaluation
+To evaluate the trained model:
+
+```bash
+python Evaluation.py
+```
