@@ -21,15 +21,8 @@ joblib==1.4.2
 ```
 
 ## 🚀 Usage
-### 1. Model Training
 Train the model with 5-fold cross-validation:
 ```bash
-python Training.py
+python train.py
 ```
 
-### 2. Model Evaluation
-To evaluate the trained model:
-
-```bash
-python Evaluation.py
-```
