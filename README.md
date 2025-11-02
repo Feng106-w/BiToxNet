@@ -10,6 +10,16 @@ We provide the source code and you can find them [Code](https://github.com/Feng1
 
 The pre-trained model used in BiToxNet is [esm2 t30 150M UR50D](https://huggingface.co/facebook/esm2_t30_150M_UR50D)
 
+## 🛠️ Requirements
+```
+Python==3.12.3
+PyTorch==2.5.1
+scikit-learn==1.6.1
+NumPy==2.1.3
+Pandas==2.2.3
+joblib==1.4.2
+```
+
 ## 🚀 Usage
 ### 1. Model Training
 Train the model with 5-fold cross-validation:
