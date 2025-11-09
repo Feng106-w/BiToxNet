@@ -1,5 +1,22 @@
 ## Welcome to BiToxNet: A Deep Learning Framework Integrating Multimodal Features for Accurate Identification of Neurotoxic Peptides and Proteins
-Accurate prediction of the neurotoxicity of peptides and proteins is critically important for the safety assessment of protein therapeutics and directly influences the development of protein-based drugs. Although traditional wet-lab methods can identify neurotoxic peptides and neurotoxins, they are labor- and resource-intensive and fail to meet the demands of high-throughput identification. Current computational approaches are constrained by shallow feature engineering and suboptimal multimodal fusion strategies, making it difficult to ensure strong model generalizability and limiting their applicability to real-world scenarios. To address these challenges, we present BiToxNet, a deep learning framework that integrates evolutionary embeddings with ten handcrafted biochemical descriptors through a bilinear attention network (BAN) module. BiToxNet incorporates a protein large language model to capture semantic information between residues and effectively integrates multiple features, including physicochemical properties. To simulate real-world scenarios, BiToxNet was evaluated on three datasets with different sequence lengths—Protein, Peptide, and Combined—achieving accuracies of 92.3%, 96.0%, and 92.7%, respectively, outperforming existing state-of-the-art methods. Ablation experiments validated the effectiveness of our feature representation design and highlighted the critical role of BAN. Furthermore, t-SNE visualizations and hierarchical clustering analyses demonstrated that BiToxNet learned highly discriminative features without relying on domain expert knowledge, further confirming the effectiveness of the proposed framework. Overall, BiToxNet offers a powerful and generalizable computational framework for neurotoxin identification, making a unique contribution to the field of protein drug discovery and providing a distinctive perspective for other biological sequence analysis tasks.
+Accurate prediction of the neurotoxicity of peptides and proteins is critically important for the safety assessment of protein
+therapeutics and directly influences the development of protein-based drugs. Although traditional wet-lab methods can
+identify neurotoxic peptides and neurotoxins, they are labor- and resource-intensive and fail to meet the demands of
+high-throughput identification. Current computational approaches are constrained by shallow feature engineering and
+suboptimal multimodal fusion strategies, making it difficult to ensure strong model generalizability and limiting their
+applicability to real-world scenarios. To address these challenges, we present BiToxNet, a deep learning framework
+that integrates evolutionary embeddings with ten handcrafted descriptors through a bilinear attention network (BAN)
+module. BiToxNet incorporates a protein large language model to capture semantic information between residues and
+effectively integrates multiple features, including physicochemical properties. To simulate real-world scenarios, BiToxNet
+was evaluated on three datasets of different sequence lengths, namely Protein, Peptide, and Combined datasets, achieving
+accuracies of 92.3%, 96.0%, and 92.7%, respectively, and outperforming existing state-of-the-art methods. Ablation
+experiments validated the effectiveness of our feature representation design and highlighted the critical role of BAN.
+Furthermore, t-distributed stochastic neighbor embedding (t-SNE) visualizations and hierarchical clustering analyses
+demonstrated that BiToxNet learned highly discriminative features without relying on domain expert knowledge, further
+confirming the effectiveness of the proposed framework. Additional evaluation on an external and imbalanced dataset
+further demonstrated BiToxNet’s robustness and strong generalization capability. Overall, BiToxNet offers a powerful
+and generalizable computational framework for neurotoxin identification, making a unique contribution to the field of
+protein drug discovery and providing a distinctive perspective for other biological sequence analysis tasks.
 
 ![workflow](workflow.png)
 
